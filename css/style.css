@@ -1,0 +1,42 @@
+ul{
+    list-style-type:none;
+    padding: 0px;
+}
+
+li {
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.container-fluid {
+    padding: 0px;
+}
+
+.body-section {
+    margin:0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+.center-hroizontal {
+    margin: 0;
+    position: absolute;
+    left: 50%;
+    -ms-transform: translateX(-50%);
+    transform: translateX(-50%);
+}
+
+.align-middle {
+    text-align: center;
+}
+
+.section-full-height {
+    height: 100vh;  
+}
+
+.self-intro {
+    color: #ff3434;
+}
